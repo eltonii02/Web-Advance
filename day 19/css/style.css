@@ -1,0 +1,92 @@
+.comtainer {
+    display: flex;
+    background: #06206a;
+}
+
+.comtainer div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.comtainer div:nth-child(1) {
+    order: 2;
+}
+
+.comtainer div:nth-child(2) {
+    order: 3;
+}
+
+.comtainer div:nth-child(3) {
+    order: 0;
+}
+
+.comtainer div:nth-child(4) {
+    order: 1;
+}
+
+.comtainer2 {
+    display: flex;
+    background: #06206a;
+    flex-direction: column-reverse;
+}
+
+.comtainer2 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.comtainer3 {
+    display: flex;
+    background: #06206a;
+    flex-direction: row;
+}
+
+.comtainer3 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.comtainer3 div:nth-child(1) {
+    flex-grow: 4;
+}
+
+.comtainer4 {
+    display: flex;
+    background: #06206a;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.comtainer4 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 30%;
+}
+
+.comtainer5 {
+    display: flex;
+    background: #06206a;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+.comtainer5 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+  
+}
+
+
+
+
+
